@@ -5,6 +5,7 @@ body {
   background-color: #ced3df;
   text-align: center;
   font-family: "Shadows Into Light", cursive;
+  font-family: "Nanum Brush Script", cursive;
 }
 
 .shoppingList {
@@ -28,9 +29,11 @@ button {
   background-color: transparent;
 }
 .header {
-  height: 48px;
+  height: 54px;
   padding: 8px;
-  font-size: 24px;
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
   background: rgb(238, 174, 202);
   background: radial-gradient(
     circle,
@@ -47,6 +50,7 @@ button {
   display: flex;
   justify-content: space-between;
   padding: 8px 32px;
+  font-size: 24px;
 }
 
 .item__divider {
